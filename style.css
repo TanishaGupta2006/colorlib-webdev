@@ -1,0 +1,457 @@
+body {
+    background-color: #030712;
+    color: white;
+}
+/* 
+.container {
+    min-width: 1836px !important;
+
+} */
+
+body h2 {
+    font-family: "Playfair Display", serif;
+}
+
+.navbar {
+    background-color: #030712CC !important;
+
+}
+
+.btn-warning {
+    background-color: #A8782A;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.sec-btn {
+    background-color: #5e3f1e4d;
+    color: #ebc183;
+    border: none !important;
+    font-size: larger;
+}
+
+.navbar-brand strong {
+    font-size: 26px;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.coasterfurniture.com/wp-content/uploads/traditional-interior-design-of-a-living-room.jpeg");
+    background-size: cover;
+    padding: 150px 0px;
+    min-height: 100vh;
+
+
+}
+
+.sticky-top {
+    backdrop-filter: blur(5px);
+}
+
+.stats-section {
+    background-color: #030712;
+    padding: 80px 0;
+}
+
+.stats-section h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.services-section {
+    background-color: #030712;
+}
+
+.projects {
+    background-color: #111827;
+}
+
+.process {
+    font-size: 24px;
+    background-color: #030712CC;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.process button {
+    font-size: larger;
+
+}
+
+/* .vline {
+    position: relative;
+    height: 80px;
+}
+
+.vline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 630px;
+    left: 500px;
+    top: 20px;
+
+    background-color: #9ca3af;
+
+} */
+
+.textalign {
+    text-align: end;
+}
+
+.client-section {
+    font-size: 24px;
+    background-color: #111827;
+
+}
+
+.client-section button {
+    font-size: larger;
+
+}
+
+.rec-section {
+    font-size: 24px;
+    background-color: #030712CC;
+}
+
+.rec-section button {
+    font-size: larger;
+
+}
+
+.faq {
+    font-size: 24px;
+    background-color: #111827;
+
+}
+
+.faq button {
+    font-size: larger;
+
+}
+
+.form-section {
+    font-size: 24px;
+    background-color: #030712CC;
+}
+
+.form button {
+    font-size: larger;
+
+}
+
+.bgcustom {
+    background-color: #030712CC !important;
+}
+
+.custombg {
+    background-color: #111827 !important;
+}
+
+.studio-box {
+    border-radius: 15px;
+}
+
+form input {
+    border-color: #374151;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white !important;
+}
+
+.end-box {
+    border-radius: 20px;
+    background-color: #030712;
+    display: none ;
+}
+
+.ph::before {
+    content: '\f095';
+    position: absolute;
+    font-family: fontawesome;
+    color: #d4a854;
+    left: 0px;
+    font-size: 20px;
+    top: 15px;
+    background-color: #5e3f1e4d;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.ph {
+    position: relative;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.mail::before {
+    content: '\f0e0';
+    position: absolute;
+    font-family: fontawesome;
+    color: #d4a854;
+    left: 0px;
+    font-size: 20px;
+    top: 14px;
+    background-color: #5e3f1e4d;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.mail {
+    position: relative;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.loc::before {
+    content: '\f3c5';
+    position: absolute;
+    font-family: fontawesome;
+    color: #d4a854;
+    left: 0px;
+    font-size: 20px;
+    top: 15px;
+    background-color: #5e3f1e4d;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.loc {
+    position: relative;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+
+.phone::before {
+    content: '\f095';
+    position: absolute;
+    font-family: fontawesome;
+    left: 25px;
+    font-size: 20px;
+    top: 5px;
+    padding: 7px;
+    bottom: 40px;
+    color: #9ca3af;
+
+}
+
+.phone {
+    position: relative;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.email::before {
+    content: ' \f0e0';
+    position: absolute;
+    font-family: fontawesome;
+    left: 25px;
+    font-size: 20px;
+    top: 5px;
+    padding: 7px;
+    bottom: 40px;
+    color: #9ca3af;
+    /* background-image: url('image.png');
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+}
+
+.email {
+    position: relative;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.location::before {
+    content: '\f3c5';
+    position: absolute;
+    font-family: fontawesome;
+    left: 25px;
+    font-size: 20px;
+    top: 5px;
+    padding: 7px;
+    bottom: 40px;
+    color: #9ca3af;
+
+
+}
+
+.location {
+    position: relative;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+home {
+    position: relative;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+.home::before {
+    content: '\f890';
+    position: absolute;
+    font-family: fontawesome;
+    color: #d4a854;
+    left: 0px;
+    font-size: 20px;
+    top: 4px;
+    background-color: #5e3f1e4d;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #d4a854;
+
+
+}
+
+.service-icon {
+    width: 55px;
+    height: 55px;
+    background-color: #5e3f1e4d;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon i {
+    color: #d4a854;
+    font-size: 22px;
+}
+
+.building {
+    position: relative;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+.building::before {
+    content: '\f890';
+    position: absolute;
+    font-family: fontawesome;
+    color: #d4a854;
+    left: 0px;
+    font-size: 20px;
+    top: 4px;
+    background-color: #5e3f1e4d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hospitality {
+    position: relative;
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+.hospitality::before {
+    content: '\f0e0';
+    position: absolute;
+    font-family: fontawesome;
+    color: #d4a854;
+    left: 0px;
+    font-size: 20px;
+    top: 4px;
+    background-color: #5e3f1e4d;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.social-icons {
+    position: relative;
+    height: 80px;
+}
+
+.social1::after {
+    content: '\f16d';
+    position: absolute;
+    font-family: fontawesome;
+    width: 45px;
+    height: 45px;
+    left: 25px;
+    top: 20px;
+
+    font-size: 23px;
+    color: #f3f4f6;
+    background-color: #111827;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+}
+
+.social2::after {
+    content: '\f0d2';
+    position: absolute;
+    font-family: fontawesome;
+    width: 45px;
+    height: 45px;
+    left: 85px;
+    top: 20px;
+
+    font-size: 23px;
+    color: #f3f4f6;
+    background-color: #111827;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+}
+
+.social3 {
+    position: absolute;
+    left: 145px;
+    top: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    background-color: #111827;
+    border-radius: 50%;
+}
+
+.social3 svg {
+    width: 20px;
+    height: 20px;
+    color: #9ca3af;
+
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+@media(max-width:767px){
+    .end-box {
+        display: block !important;
+    }
+    
+
+}
+@media(min-width:768px) and (max-width:991px) {
+    
+    .break{
+        word-break:break-all;
+
+    }
+    
+    .studio-box{
+        width: 100%;
+        margin-top: 20px !important;
+    }
+    
+}
