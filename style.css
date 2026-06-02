@@ -81,7 +81,7 @@ body h2 {
 
 }
 
-/* .vline {
+.vline {
     position: relative;
     height: 80px;
 }
@@ -90,13 +90,12 @@ body h2 {
     content: '';
     position: absolute;
     width: 1px;
-    height: 630px;
-    left: 500px;
-    top: 20px;
-
+    height: 1100%;
+    left: 380%;
+    top: 0%;
     background-color: #9ca3af;
 
-} */
+}
 
 .textalign {
     text-align: end;
@@ -500,6 +499,9 @@ home {
         display: block;
         margin: 0 auto !important;
     }
+    .vline{
+        display: none;
+    }
 }
 @media(min-width:768px) and (max-width:991px) {
     
@@ -524,4 +526,19 @@ home {
         margin: 0 auto;
         padding-bottom: 20px;
     }
+    .vline {
+    position: relative;
+    height: 80px;
+}
+
+.vline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1100%;
+    left: 330%;
+    top: 0%;
+    background-color: #9ca3af;
+
+}
 }
