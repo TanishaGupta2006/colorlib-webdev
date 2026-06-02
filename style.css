@@ -378,6 +378,12 @@ home {
     position: relative;
     height: 80px;
 }
+.social1{
+    position: relative;
+}
+.social2{
+    position: relative;
+}
 
 .social1::after {
     content: '\f16d';
@@ -414,7 +420,7 @@ home {
 }
 
 .social3 {
-    position: absolute;
+    position: relative;
     left: 145px;
     top: 20px;
 
@@ -434,13 +440,55 @@ home {
     top: 12px;
     left: 12px;
 }
+.navbar>.container{
+    padding: 20px !important;
+}
 
 @media(max-width:767px){
     .end-box {
         display: block !important;
     }
-    
+    .process-consult{
+        text-align: center;
+    }
+    .execute-div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bottom-footer{
+        text-align: center;
+        font-size: small;
+       
+    }
+ .break{
+        word-break:break-all;
 
+    }
+    .end-buttons{
+        display: block !important;
+    }
+    .fullwidth{
+        width: 100% !important;
+    }
+    .custom-padding{
+        margin-bottom: 10px;
+        padding:0%
+    }
+    .small-size{
+        font-size: 18px !important;
+    }
+    .large-size{
+        font-size: 28px !important;
+    }
+    .custom-m{
+        margin: 0 auto;
+    }
+    .custom-footer{
+        max-width: 400px;
+        text-align: left;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
 }
 @media(min-width:768px) and (max-width:991px) {
     
@@ -453,5 +501,16 @@ home {
         width: 100%;
         margin-top: 20px !important;
     }
-    
+    .process-consult{
+        text-align: center;
+    }
+     .bottom-footer{
+        text-align: center;
+    }
+    .custom-footer{
+        max-width: 400px;
+        text-align: left;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
 }
