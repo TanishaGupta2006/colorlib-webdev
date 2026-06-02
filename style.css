@@ -168,7 +168,7 @@ textarea::placeholder {
 .end-box {
     border-radius: 20px;
     background-color: #030712;
-    display: none ;
+    
 }
 
 .ph::before {
@@ -439,6 +439,9 @@ home {
     position: absolute;
     top: 12px;
     left: 12px;
+}
+.mobile-button{
+    display: none;
 }
 .navbar>.container{
     padding: 20px !important;
