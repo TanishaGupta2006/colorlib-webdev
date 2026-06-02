@@ -91,7 +91,7 @@ body h2 {
     position: absolute;
     width: 1px;
     height: 1100%;
-    left: 380%;
+    left: 390%;
     top: 0%;
     background-color: #9ca3af;
 
@@ -499,7 +499,7 @@ home {
         display: block;
         margin: 0 auto !important;
     }
-    .vline{
+    .vline::after{
         display: none;
     }
 }
@@ -526,7 +526,7 @@ home {
         margin: 0 auto;
         padding-bottom: 20px;
     }
-    .vline {
+    .vline{
     position: relative;
     height: 80px;
 }
